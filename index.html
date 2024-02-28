@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Voxify</title>
+    <link rel="icon" href="https://icons.veryicon.com/png/o/miscellaneous/cbxt/speech-synthesis.png"/>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="scripts/script.js" defer></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Voxify</h1>
+      <select id="voices">
+      </select>
+        <label>Rate:</label>
+        <input id="rate" type="range" min="0" max="3" value="1" step="0.1"/>
+        <label>Pitch:</label>
+        <input id="pitch" type="range" min="0" max="2" value="1" step="0.1"/>
+      <textarea id="text">Welcome to Crack the Code!</textarea>
+      <div class="buttons">
+        <button id="stop">Stop</button>
+        <button id="speak">Speak</button>
+      </div>
+    </div>
+  </body>
+</html>
